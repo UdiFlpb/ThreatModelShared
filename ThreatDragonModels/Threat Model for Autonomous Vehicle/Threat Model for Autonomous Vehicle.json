@@ -123,7 +123,7 @@
           },
           {
             "position": {
-              "x": -300,
+              "x": -310,
               "y": -580
             },
             "size": {
@@ -145,13 +145,6 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -736,8 +729,8 @@
           },
           {
             "position": {
-              "x": -450,
-              "y": -510
+              "x": -460,
+              "y": -590
             },
             "size": {
               "width": 130,
@@ -1335,70 +1328,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Image Data",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "3d82bad6-9ae6-4695-8aa6-e85379208491",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Tampering",
-                  "description": "VISION SPOOFING",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 8,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 1,
-                "informationDisclosure": 0,
-                "denialOfService": 0
-              }
-            },
-            "labels": [
-              "Image Data"
-            ],
-            "id": "058d5920-347f-452e-ad91-2bd72abe1b54",
-            "source": {
-              "x": -100,
-              "y": -390
-            },
-            "target": {
-              "cell": "2cd38a7a-62ad-499e-9b2b-074a960b0974",
-              "port": "d479aee8-982d-45c4-b0ff-99469c9f1791"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "GPS Data",
               "description": "",
               "outOfScope": false,
@@ -1449,150 +1378,6 @@
               {
                 "x": 80,
                 "y": -140
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Point Cloud",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "869ce12d-ed30-4df8-96d4-98531e3f7ee7",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Tampering",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 9,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 1,
-                "informationDisclosure": 0,
-                "denialOfService": 0
-              }
-            },
-            "labels": [
-              "Point Cloud"
-            ],
-            "id": "4d710ada-7329-4afc-877d-7a26b799a6f7",
-            "source": {
-              "x": -100,
-              "y": -290
-            },
-            "target": {
-              "cell": "2cd38a7a-62ad-499e-9b2b-074a960b0974",
-              "port": "6177e632-13a2-4b43-9927-027c836a59fc"
-            },
-            "vertices": [
-              {
-                "x": -80,
-                "y": -270
-              },
-              {
-                "x": 10,
-                "y": -270
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Radar Data",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "aa54f820-95cd-4189-abac-60d31257c654",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Tampering",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 10,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 1,
-                "informationDisclosure": 0,
-                "denialOfService": 0
-              }
-            },
-            "labels": [
-              "Radar Data"
-            ],
-            "id": "3b10cf13-9d8a-43a2-96ea-976e8474b322",
-            "source": {
-              "cell": "c5094730-b420-430f-83ea-a09bbb8e3750",
-              "port": "0b28a150-eff0-445e-b111-72350cd74aa5"
-            },
-            "target": {
-              "cell": "2cd38a7a-62ad-499e-9b2b-074a960b0974",
-              "port": "5ff24765-4cd8-43d0-ae27-6d73f688802b"
-            },
-            "vertices": [
-              {
-                "x": 50,
-                "y": -205
               }
             ]
           },
@@ -2135,70 +1920,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Fused Sensor data",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "2de1120a-b3bc-459b-8c7c-df49d13b2534",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Tampering",
-                  "description": "adversarial input crafting",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 12,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 1,
-                "informationDisclosure": 0,
-                "denialOfService": 0
-              }
-            },
-            "labels": [
-              "Fused Sensor data"
-            ],
-            "id": "9057d794-6ce0-41ec-9094-81230411ceac",
-            "source": {
-              "x": 140,
-              "y": -260
-            },
-            "target": {
-              "x": 270,
-              "y": -165
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Raw coordinates ",
               "description": "",
               "outOfScope": false,
@@ -2247,12 +1968,8 @@
                 "y": -70
               },
               {
-                "x": 230,
+                "x": 290,
                 "y": -70
-              },
-              {
-                "x": 300,
-                "y": -40
               },
               {
                 "x": 330,
@@ -2331,76 +2048,6 @@
               "cell": "7e25c0a0-e5b6-4eda-9e9d-8657527ef579",
               "port": "060fa103-1194-4b4b-913f-d7f53c2cc6c9"
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Route,trajectory,speed plan",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "0db9c017-e919-4ab6-b0ee-a0ad76afbb08",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Tampering",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 16,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 1,
-                "informationDisclosure": 0,
-                "denialOfService": 0
-              }
-            },
-            "labels": [
-              "Route,trajectory,speed plan"
-            ],
-            "id": "ea19512c-0fb8-4423-8f20-5f8a58c9065f",
-            "source": {
-              "x": 550,
-              "y": 10
-            },
-            "target": {
-              "x": 529,
-              "y": 150
-            },
-            "vertices": [
-              {
-                "x": 460,
-                "y": 50
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -2586,141 +2233,10 @@
               {
                 "x": 510,
                 "y": 400
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Update package",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Update package"
-            ],
-            "id": "d65909af-71ec-4299-ada3-ac2d4a4d8501",
-            "source": {
-              "x": 280,
-              "y": 260
-            },
-            "target": {
-              "cell": "e29467b7-5aaf-46ed-9d27-fddc8859ef9d",
-              "port": "d479aee8-982d-45c4-b0ff-99469c9f1791"
-            },
-            "vertices": [
-              {
-                "x": 250,
-                "y": 290
               },
               {
-                "x": 250,
-                "y": 310
-              },
-              {
-                "x": 260,
-                "y": 310
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "V2X Spoofing",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "e7ae4fb9-618c-4462-aa04-67769d61691b",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Tampering",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 2,
-                  "score": ""
-                }
-              ]
-            },
-            "labels": [
-              "V2X Spoofing"
-            ],
-            "id": "c08cb922-d7e2-46fe-bacb-40bd17702be9",
-            "source": {
-              "cell": "ecf5e6bb-e591-4e79-a03b-506f2c23d0c0",
-              "port": "5c97b9ea-d432-4f07-ab06-61c861b45f52"
-            },
-            "target": {
-              "cell": "b832058b-6dcd-46a5-989b-7b7e3f918297",
-              "port": "6177e632-13a2-4b43-9927-027c836a59fc"
-            },
-            "vertices": [
-              {
-                "x": 25,
-                "y": 410
-              },
-              {
-                "x": 50,
-                "y": 330
-              },
-              {
-                "x": 90,
-                "y": 260
-              },
-              {
-                "x": 180,
-                "y": 130
+                "x": 450,
+                "y": 280
               }
             ]
           },
@@ -3115,96 +2631,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [
-                {
-                  "id": "0d6d1739-9a34-403e-b222-e3b304bc3c8a",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Tampering",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 27,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "tampering": 1,
-                "informationDisclosure": 0,
-                "denialOfService": 0
-              }
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "d7b770e7-194b-4375-aa40-1e821b75e0c0",
-            "source": {
-              "x": -320,
-              "y": -470
-            },
-            "target": {
-              "cell": "00c55566-c94c-4864-b721-cb4be6abc0fa",
-              "port": "0368505a-7345-4a76-afba-4183be202fa8"
-            },
-            "vertices": [
-              {
-                "x": -210,
-                "y": -490
-              },
-              {
-                "x": -180,
-                "y": -490
-              },
-              {
-                "x": -130,
-                "y": -500
-              },
-              {
-                "x": 210,
-                "y": -530
-              },
-              {
-                "x": 440,
-                "y": -530
-              },
-              {
-                "x": 660,
-                "y": -510
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Telemetry Data",
               "description": "",
               "outOfScope": false,
@@ -3249,12 +2675,12 @@
             },
             "vertices": [
               {
-                "x": 430,
-                "y": 420
+                "x": 460,
+                "y": 430
               },
               {
-                "x": 420,
-                "y": 400
+                "x": 410,
+                "y": 340
               }
             ]
           },
@@ -3333,12 +2759,1852 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Fake Sensor Data Injection ",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "df733afe-ab22-4333-8271-8d1fa7d6b8ce",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Spoofing-Attacker spoofs a sensor's identity to inject false data into Sensor Fusion.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 31,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Fake Sensor Data Injection "
+            ],
+            "id": "144b9ac0-4abf-4ec1-b8cf-9adf8ddaaa89",
+            "source": {
+              "x": 0,
+              "y": 510
+            },
+            "target": {
+              "cell": "2cd38a7a-62ad-499e-9b2b-074a960b0974",
+              "port": "5ff24765-4cd8-43d0-ae27-6d73f688802b"
+            },
+            "vertices": [
+              {
+                "x": -10,
+                "y": 430
+              },
+              {
+                "x": -10,
+                "y": 290
+              },
+              {
+                "x": 10,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Fake ECU Command Injection",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "f55309db-77dc-45c2-b70b-df18572333ad",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Attacker spoofs the ECU identity to send malicious control commands.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 32,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Fake ECU Command Injection"
+            ],
+            "id": "7fbe8acf-b8c1-485c-b88c-de333b6e3b21",
+            "source": {
+              "x": 90,
+              "y": 530
+            },
+            "target": {
+              "cell": "90871b7a-91b1-4333-baa1-ff0ea1e7b267",
+              "port": "49ed3a9c-3d4c-432d-b0ef-da22cbffe1ed"
+            },
+            "vertices": [
+              {
+                "x": 360,
+                "y": 530
+              },
+              {
+                "x": 440,
+                "y": 470
+              },
+              {
+                "x": 440,
+                "y": 450
+              },
+              {
+                "x": 470,
+                "y": 290
+              },
+              {
+                "x": 430,
+                "y": 210
+              },
+              {
+                "x": 430,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Tampered Message Transmission\n/Network flood traffic",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "8d095cf4-fcd7-4989-a965-d854986f13a4",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Attacker tampers in-transit communication messages causing false vehicle actions.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 33,
+                  "score": ""
+                },
+                {
+                  "id": "e39386f2-02df-465f-bc2d-8d33ad7ead4d",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service",
+                  "description": "Attacker floods the CAN network with fake traffic, disrupting communication.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 35,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 1
+              }
+            },
+            "labels": [
+              "Tampered Message Transmission\n/Network flood traffic"
+            ],
+            "id": "a45c6b00-1866-4c60-97b2-c6dd25a938c7",
+            "source": {
+              "x": 90,
+              "y": 550
+            },
+            "target": {
+              "cell": "00c55566-c94c-4864-b721-cb4be6abc0fa",
+              "port": "829f8bbd-ee3a-4eb4-a8e7-c60b8ea21efc"
+            },
+            "vertices": [
+              {
+                "x": 210,
+                "y": 610
+              },
+              {
+                "x": 390,
+                "y": 680
+              },
+              {
+                "x": 610,
+                "y": 740
+              },
+              {
+                "x": 750,
+                "y": 720
+              },
+              {
+                "x": 810,
+                "y": 670
+              },
+              {
+                "x": 830,
+                "y": 580
+              },
+              {
+                "x": 830,
+                "y": 480
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "V2X Spoofing",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "e7ae4fb9-618c-4462-aa04-67769d61691b",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 2,
+                  "score": ""
+                }
+              ]
+            },
+            "labels": [
+              "V2X Spoofing"
+            ],
+            "id": "c08cb922-d7e2-46fe-bacb-40bd17702be9",
+            "source": {
+              "cell": "ecf5e6bb-e591-4e79-a03b-506f2c23d0c0",
+              "port": "5c97b9ea-d432-4f07-ab06-61c861b45f52"
+            },
+            "target": {
+              "cell": "b832058b-6dcd-46a5-989b-7b7e3f918297",
+              "port": "6177e632-13a2-4b43-9927-027c836a59fc"
+            },
+            "vertices": [
+              {
+                "x": 25,
+                "y": 410
+              },
+              {
+                "x": 50,
+                "y": 330
+              },
+              {
+                "x": 90,
+                "y": 260
+              },
+              {
+                "x": 180,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Route,trajectory,speed plan",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "0db9c017-e919-4ab6-b0ee-a0ad76afbb08",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 16,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Route,trajectory,speed plan"
+            ],
+            "id": "ea19512c-0fb8-4423-8f20-5f8a58c9065f",
+            "source": {
+              "x": 550,
+              "y": 10
+            },
+            "target": {
+              "x": 529,
+              "y": 150
+            },
+            "vertices": [
+              {
+                "x": 490,
+                "y": 40
+              },
+              {
+                "x": 470,
+                "y": 60
+              },
+              {
+                "x": 470,
+                "y": 90
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Fused Sensor data",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "2de1120a-b3bc-459b-8c7c-df49d13b2534",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "adversarial input crafting",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Fused Sensor data"
+            ],
+            "id": "9057d794-6ce0-41ec-9094-81230411ceac",
+            "source": {
+              "x": 230,
+              "y": -260
+            },
+            "target": {
+              "x": 360,
+              "y": -210
+            },
+            "vertices": [
+              {
+                "x": 240,
+                "y": -260
+              },
+              {
+                "x": 270,
+                "y": -290
+              },
+              {
+                "x": 270,
+                "y": -360
+              },
+              {
+                "x": 310,
+                "y": -360
+              },
+              {
+                "x": 350,
+                "y": -330
+              },
+              {
+                "x": 370,
+                "y": -280
+              },
+              {
+                "x": 370,
+                "y": -230
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Image Data",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "3d82bad6-9ae6-4695-8aa6-e85379208491",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "VISION SPOOFING",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Image Data"
+            ],
+            "id": "058d5920-347f-452e-ad91-2bd72abe1b54",
+            "source": {
+              "x": -110,
+              "y": -390
+            },
+            "target": {
+              "cell": "c38cc211-babe-4d0b-bb92-03c288e4bdcf",
+              "port": "a812a292-b620-4081-abdb-29cc779c0f51"
+            },
+            "vertices": [
+              {
+                "x": -60,
+                "y": -390
+              },
+              {
+                "x": 0,
+                "y": -350
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Radar Data",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "aa54f820-95cd-4189-abac-60d31257c654",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Radar Data"
+            ],
+            "id": "3b10cf13-9d8a-43a2-96ea-976e8474b322",
+            "source": {
+              "cell": "c5094730-b420-430f-83ea-a09bbb8e3750",
+              "port": "0b28a150-eff0-445e-b111-72350cd74aa5"
+            },
+            "target": {
+              "cell": "c38cc211-babe-4d0b-bb92-03c288e4bdcf",
+              "port": "08882892-bb0e-4c63-b2f1-d054fcc1cffa"
+            },
+            "vertices": [
+              {
+                "x": -50,
+                "y": -170
+              },
+              {
+                "x": 10,
+                "y": -170
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Point Cloud",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "869ce12d-ed30-4df8-96d4-98531e3f7ee7",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Point Cloud"
+            ],
+            "id": "4d710ada-7329-4afc-877d-7a26b799a6f7",
+            "source": {
+              "cell": "0f34ad58-0b75-42b3-926d-5284e96e40b2",
+              "port": "0b28a150-eff0-445e-b111-72350cd74aa5"
+            },
+            "target": {
+              "cell": "c38cc211-babe-4d0b-bb92-03c288e4bdcf",
+              "port": "08882892-bb0e-4c63-b2f1-d054fcc1cffa"
+            },
+            "vertices": [
+              {
+                "x": -90,
+                "y": -270
+              },
+              {
+                "x": 0,
+                "y": -270
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Raw Sensor \nData Retrieval",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Raw Sensor \nData Retrieval"
+            ],
+            "id": "37afcd76-9de3-4166-b58e-ccf1d8b9fc27",
+            "source": {
+              "cell": "c38cc211-babe-4d0b-bb92-03c288e4bdcf",
+              "port": "0714ddfd-f54b-4896-b66b-8bef43184c3e"
+            },
+            "target": {
+              "cell": "2cd38a7a-62ad-499e-9b2b-074a960b0974",
+              "port": "d479aee8-982d-45c4-b0ff-99469c9f1791"
+            },
+            "vertices": [
+              {
+                "x": 180,
+                "y": -300
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Sensor Data Eavesdropping",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "d1786219-12ff-49a1-877d-372076f834ad",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Attacker eavesdrops sensor data and compromises vehicle privacy.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 34,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Sensor Data Eavesdropping"
+            ],
+            "id": "aa165ca6-6ed0-48d7-823e-682222c6b066",
+            "source": {
+              "x": -40,
+              "y": 530
+            },
+            "target": {
+              "cell": "c38cc211-babe-4d0b-bb92-03c288e4bdcf",
+              "port": "08882892-bb0e-4c63-b2f1-d054fcc1cffa"
+            },
+            "vertices": [
+              {
+                "x": -220,
+                "y": 530
+              },
+              {
+                "x": -220,
+                "y": 430
+              },
+              {
+                "x": -140,
+                "y": 280
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Snowflake \nVisual Input",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "3f5487e5-a866-4de0-9532-30cc0dabaa1d",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Obstructing or degrading image clarity",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 30,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Snowflake \nVisual Input"
+            ],
+            "id": "ba8b4392-1910-4098-b726-d2c29ed26aeb",
+            "source": {
+              "cell": "155427b6-4051-4779-939a-9f03f667e46b",
+              "port": "75b7f9b5-9b5b-4d09-b9d7-af9f9364eebd"
+            },
+            "target": {
+              "cell": "2e43871b-11cb-4cfd-99cc-63aa6fbd4b97",
+              "port": "82462713-9279-4e2c-b39c-18e074fbaec2"
+            },
+            "vertices": [
+              {
+                "x": -270,
+                "y": -255
+              },
+              {
+                "x": -240,
+                "y": -270
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Low visibility",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "fd0d79d1-087d-405b-ae4e-cb43d45622b5",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Reducing visibility and confusing sensors",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 29,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Low visibility"
+            ],
+            "id": "8b5023a6-df34-41a1-ba25-07c5afb1a237",
+            "source": {
+              "cell": "4f770b7c-0fa5-467b-b497-f618f1ebcb59",
+              "port": "75b7f9b5-9b5b-4d09-b9d7-af9f9364eebd"
+            },
+            "target": {
+              "cell": "2e43871b-11cb-4cfd-99cc-63aa6fbd4b97",
+              "port": "82462713-9279-4e2c-b39c-18e074fbaec2"
+            },
+            "vertices": [
+              {
+                "x": -300,
+                "y": -385
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "  Impair visual input",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "e9b811bf-110c-4488-ba6e-5e891ae93670",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Impairing visual input (image distortion)",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 28,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "  Impair visual input"
+            ],
+            "id": "2f4f8072-679f-42bb-8db1-7e1c109bf956",
+            "source": {
+              "cell": "11688ee6-64ce-4300-b1a6-73491b48c84a",
+              "port": "75b7f9b5-9b5b-4d09-b9d7-af9f9364eebd"
+            },
+            "target": {
+              "cell": "2e43871b-11cb-4cfd-99cc-63aa6fbd4b97",
+              "port": "82462713-9279-4e2c-b39c-18e074fbaec2"
+            },
+            "vertices": [
+              {
+                "x": -380,
+                "y": -415
+              },
+              {
+                "x": -280,
+                "y": -420
+              },
+              {
+                "x": -240,
+                "y": -385
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "CAN injection",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "0d6d1739-9a34-403e-b222-e3b304bc3c8a",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 27,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "CAN injection"
+            ],
+            "id": "d7b770e7-194b-4375-aa40-1e821b75e0c0",
+            "source": {
+              "cell": "78e12e53-ed47-4e50-8f21-c9ac9aa87b0a",
+              "port": "0b28a150-eff0-445e-b111-72350cd74aa5"
+            },
+            "target": {
+              "cell": "00c55566-c94c-4864-b721-cb4be6abc0fa",
+              "port": "0368505a-7345-4a76-afba-4183be202fa8"
+            },
+            "vertices": [
+              {
+                "x": -210,
+                "y": -490
+              },
+              {
+                "x": -180,
+                "y": -490
+              },
+              {
+                "x": -130,
+                "y": -500
+              },
+              {
+                "x": 210,
+                "y": -530
+              },
+              {
+                "x": 440,
+                "y": -530
+              },
+              {
+                "x": 660,
+                "y": -510
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Physical sensor disruption/Lidar Signal overload",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "af59f5d6-05a3-4816-8f5d-10b3aa1dcd6a",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "Attacker physically damages vehicle sensors causing blindness.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 39,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1
+              }
+            },
+            "labels": [
+              "Physical sensor disruption/Lidar Signal overload"
+            ],
+            "id": "ff5669cc-d83d-432d-a10c-200a4ae93a42",
+            "source": {
+              "cell": "78e12e53-ed47-4e50-8f21-c9ac9aa87b0a",
+              "port": "0b28a150-eff0-445e-b111-72350cd74aa5"
+            },
+            "target": {
+              "cell": "0f34ad58-0b75-42b3-926d-5284e96e40b2",
+              "port": "82462713-9279-4e2c-b39c-18e074fbaec2"
+            },
+            "vertices": [
+              {
+                "x": -240,
+                "y": -470
+              },
+              {
+                "x": -210,
+                "y": -330
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "physical sensor disruption",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "90d18ee3-05b5-49e6-b978-7e23622a541a",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "Attacker physically damages vehicle sensors causing blindness.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 38,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1
+              }
+            },
+            "labels": [
+              "physical sensor disruption"
+            ],
+            "id": "05068ccc-7ec9-4734-8b85-b4a681baeb8e",
+            "source": {
+              "cell": "78e12e53-ed47-4e50-8f21-c9ac9aa87b0a",
+              "port": "0b28a150-eff0-445e-b111-72350cd74aa5"
+            },
+            "target": {
+              "cell": "c5094730-b420-430f-83ea-a09bbb8e3750",
+              "port": "82462713-9279-4e2c-b39c-18e074fbaec2"
+            },
+            "vertices": [
+              {
+                "x": -330,
+                "y": -300
+              },
+              {
+                "x": -310,
+                "y": -205
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "physical sensor disruption",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "aa3f053a-c240-427a-bc9d-636b29bcbef4",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "Attacker physically damages vehicle sensors causing blindness.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 36,
+                  "score": ""
+                },
+                {
+                  "id": "ed3ead6c-14c6-43d1-b0fb-edc0af4f8a99",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "Attacker physically damages vehicle sensors causing blindness.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 37,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 2
+              }
+            },
+            "labels": [
+              "physical sensor disruption"
+            ],
+            "id": "9cd28e75-cef8-4b63-8ac9-ab1a86e53359",
+            "source": {
+              "cell": "78e12e53-ed47-4e50-8f21-c9ac9aa87b0a",
+              "port": "0b28a150-eff0-445e-b111-72350cd74aa5"
+            },
+            "target": {
+              "cell": "2e43871b-11cb-4cfd-99cc-63aa6fbd4b97",
+              "port": "82462713-9279-4e2c-b39c-18e074fbaec2"
+            },
+            "vertices": [
+              {
+                "x": -260,
+                "y": -460
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Environmental i/p manipulation",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "ff666ddf-2505-4849-8b6a-a1ea4cba5de7",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Attacker physically alters the environment (e.g., places fake objects, stickers) to confuse the Sensor Fusion system.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 43,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Environmental i/p manipulation"
+            ],
+            "id": "39393cf0-c54f-45e4-8990-2e18303eae80",
+            "source": {
+              "cell": "78e12e53-ed47-4e50-8f21-c9ac9aa87b0a",
+              "port": "0b28a150-eff0-445e-b111-72350cd74aa5"
+            },
+            "target": {
+              "cell": "2cd38a7a-62ad-499e-9b2b-074a960b0974",
+              "port": "d479aee8-982d-45c4-b0ff-99469c9f1791"
+            },
+            "vertices": [
+              {
+                "x": 10,
+                "y": -480
+              },
+              {
+                "x": 90,
+                "y": -450
+              },
+              {
+                "x": 130,
+                "y": -430
+              },
+              {
+                "x": 190,
+                "y": -390
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Update package",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Update package"
+            ],
+            "id": "d65909af-71ec-4299-ada3-ac2d4a4d8501",
+            "source": {
+              "x": 260,
+              "y": 280
+            },
+            "target": {
+              "cell": "e29467b7-5aaf-46ed-9d27-fddc8859ef9d",
+              "port": "d479aee8-982d-45c4-b0ff-99469c9f1791"
+            },
+            "vertices": [
+              {
+                "x": 250,
+                "y": 300
+              },
+              {
+                "x": 250,
+                "y": 320
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Telemetry Data Storage",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Telemetry Data Storage"
+            ],
+            "id": "a4559bcc-8f9c-41a8-a510-14e480fbb77b",
+            "source": {
+              "cell": "933ce873-032e-4e8a-ba97-a7c5e260fda7"
+            },
+            "target": {
+              "cell": "c805be51-46c8-4288-a368-287fdea254f2",
+              "port": "08882892-bb0e-4c63-b2f1-d054fcc1cffa"
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 180
+              },
+              {
+                "x": 440,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Unauthorized data access ",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "1c86837f-8295-44b6-b63d-8eb34a4728f5",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Insider uses prior access knowledge to leak telemetry data.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 40,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Unauthorized data access "
+            ],
+            "id": "2bb8cf17-46ed-4ecb-b487-89ebf7da92ff",
+            "source": {
+              "x": -160,
+              "y": 560
+            },
+            "target": {
+              "cell": "c805be51-46c8-4288-a368-287fdea254f2",
+              "port": "c8be4118-0a20-475f-b19e-aee4b634351c"
+            },
+            "vertices": [
+              {
+                "x": -270,
+                "y": 520
+              },
+              {
+                "x": -270,
+                "y": 440
+              },
+              {
+                "x": -220,
+                "y": 380
+              },
+              {
+                "x": -140,
+                "y": 330
+              },
+              {
+                "x": -120,
+                "y": 330
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Poisoned Model input ",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "6a2d6f4d-3840-4388-aa1a-77221de0a4ac",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Attacker tampers with AI inputs/models to force wrong decisions.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 41,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Poisoned Model input "
+            ],
+            "id": "f5a7e4eb-8220-405f-82e5-a3dcedef170f",
+            "source": {
+              "x": -40,
+              "y": 520
+            },
+            "target": {
+              "cell": "70e800e7-bea0-4b1d-9d2d-8bf0571feb9c",
+              "port": "5ff24765-4cd8-43d0-ae27-6d73f688802b"
+            },
+            "vertices": [
+              {
+                "x": -110,
+                "y": 110
+              },
+              {
+                "x": -60,
+                "y": 0
+              },
+              {
+                "x": 270,
+                "y": -100
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "smart phone signal spoofing",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "15738962-7223-4c4a-9b7a-7661d95ae7e1",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Spoofing-Attacker uses smartphone apps to spoof location or signals.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 42,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "smart phone signal spoofing"
+            ],
+            "id": "1e426b92-6397-4590-86d2-9ab26586c0e0",
+            "source": {
+              "x": -40,
+              "y": 510
+            },
+            "target": {
+              "cell": "66f7a068-cfef-4eec-bb1a-4d78e932549a",
+              "port": "32dab4df-784d-401d-b999-c98108074595"
+            },
+            "vertices": [
+              {
+                "x": -155,
+                "y": 80
+              }
+            ]
+          },
+          {
             "position": {
-              "x": 60,
-              "y": -300
+              "x": 169.99999999999994,
+              "y": -260
             },
             "size": {
-              "width": 80,
+              "width": 100,
               "height": 80
             },
             "attrs": {
@@ -3454,8 +4720,8 @@
           },
           {
             "position": {
-              "x": 270,
-              "y": -220
+              "x": 280,
+              "y": -230
             },
             "size": {
               "width": 100,
@@ -3692,11 +4958,11 @@
           },
           {
             "position": {
-              "x": 205,
-              "y": 162.00000000000034
+              "x": 225,
+              "y": 207
             },
             "size": {
-              "width": 180,
+              "width": 140,
               "height": 100
             },
             "attrs": {
@@ -3807,7 +5073,10 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            }
+            },
+            "children": [
+              "7f06a6bf-cbfc-4b1d-bd6f-88f1cbbf6658"
+            ]
           },
           {
             "position": {
@@ -3930,8 +5199,8 @@
           },
           {
             "position": {
-              "x": 549,
-              "y": -39.99999999999994
+              "x": 534,
+              "y": -49.99999999999994
             },
             "size": {
               "width": 80,
@@ -4879,6 +6148,719 @@
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -540,
+              "y": -439.99999999999693
+            },
+            "size": {
+              "width": 130,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "Rain"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 24,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "f2ffb859-d502-489f-bd20-17eb317bbfe9"
+                },
+                {
+                  "group": "right",
+                  "id": "75b7f9b5-9b5b-4d09-b9d7-af9f9364eebd"
+                },
+                {
+                  "group": "bottom",
+                  "id": "78c2c60e-6688-4ea3-a825-6f829dc2b708"
+                },
+                {
+                  "group": "left",
+                  "id": "27e8a317-c2ea-48f6-b5d4-0f3b03228295"
+                }
+              ]
+            },
+            "id": "11688ee6-64ce-4300-b1a6-73491b48c84a",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Rain",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -540,
+              "y": -360
+            },
+            "size": {
+              "width": 130,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "Fog"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 25,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "f2ffb859-d502-489f-bd20-17eb317bbfe9"
+                },
+                {
+                  "group": "right",
+                  "id": "75b7f9b5-9b5b-4d09-b9d7-af9f9364eebd"
+                },
+                {
+                  "group": "bottom",
+                  "id": "78c2c60e-6688-4ea3-a825-6f829dc2b708"
+                },
+                {
+                  "group": "left",
+                  "id": "27e8a317-c2ea-48f6-b5d4-0f3b03228295"
+                }
+              ]
+            },
+            "id": "4f770b7c-0fa5-467b-b497-f618f1ebcb59",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Fog",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -540,
+              "y": -280
+            },
+            "size": {
+              "width": 130,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "Snow"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 26,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "f2ffb859-d502-489f-bd20-17eb317bbfe9"
+                },
+                {
+                  "group": "right",
+                  "id": "75b7f9b5-9b5b-4d09-b9d7-af9f9364eebd"
+                },
+                {
+                  "group": "bottom",
+                  "id": "78c2c60e-6688-4ea3-a825-6f829dc2b708"
+                },
+                {
+                  "group": "left",
+                  "id": "27e8a317-c2ea-48f6-b5d4-0f3b03228295"
+                }
+              ]
+            },
+            "id": "155427b6-4051-4779-939a-9f03f667e46b",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Snow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 13.999999999998636,
+              "y": -300
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Sensor\nData Storage"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "zIndex": 27,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "a812a292-b620-4081-abdb-29cc779c0f51"
+                },
+                {
+                  "group": "right",
+                  "id": "0714ddfd-f54b-4896-b66b-8bef43184c3e"
+                },
+                {
+                  "group": "bottom",
+                  "id": "08882892-bb0e-4c63-b2f1-d054fcc1cffa"
+                },
+                {
+                  "group": "left",
+                  "id": "c8be4118-0a20-475f-b19e-aee4b634351c"
+                }
+              ]
+            },
+            "id": "c38cc211-babe-4d0b-bb92-03c288e4bdcf",
+            "data": {
+              "type": "tm.Store",
+              "name": "Sensor\nData Storage",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            },
+            "children": [
+              "190467cd-4be0-4b78-97b4-4976280f5d25"
+            ]
+          },
+          {
+            "position": {
+              "x": 235,
+              "y": 130.00000000000006
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Telematics \nData Storage"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "zIndex": 28,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "a812a292-b620-4081-abdb-29cc779c0f51"
+                },
+                {
+                  "group": "right",
+                  "id": "0714ddfd-f54b-4896-b66b-8bef43184c3e"
+                },
+                {
+                  "group": "bottom",
+                  "id": "08882892-bb0e-4c63-b2f1-d054fcc1cffa"
+                },
+                {
+                  "group": "left",
+                  "id": "c8be4118-0a20-475f-b19e-aee4b634351c"
+                }
+              ]
+            },
+            "id": "c805be51-46c8-4288-a368-287fdea254f2",
+            "data": {
+              "type": "tm.Store",
+              "name": "Telematics \nData Storage",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -211,
+              "y": 560
+            },
+            "size": {
+              "width": 130,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "Attacker Insider"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 29,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "f2ffb859-d502-489f-bd20-17eb317bbfe9"
+                },
+                {
+                  "group": "right",
+                  "id": "75b7f9b5-9b5b-4d09-b9d7-af9f9364eebd"
+                },
+                {
+                  "group": "bottom",
+                  "id": "78c2c60e-6688-4ea3-a825-6f829dc2b708"
+                },
+                {
+                  "group": "left",
+                  "id": "27e8a317-c2ea-48f6-b5d4-0f3b03228295"
+                }
+              ]
+            },
+            "id": "4480cb9a-ef27-4499-9dd6-6522a7b48abd",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Attacker Insider",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
               "threats": []
             }
           }
